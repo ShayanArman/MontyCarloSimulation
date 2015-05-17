@@ -1,0 +1,31 @@
+Bernadette (time to death)
+==========================
+NUMBER_OF_SIMULATIONS, TIME_TO_DEATH (hours)
+100, 143.776666667
+200, 144.03
+400, 141.913333333
+800, 143.291666667
+1600, 141.784791667
+3200, 142.225416667
+6400, 142.43375
+12800, 142.619973958
+
+Clarabelle (time to death)
+==========================
+NUMBER_OF_SIMULATIONS, TIME_TO_DEATH (hours)
+100, 172.263333333
+200, 167.51
+400, 174.0425
+800, 172.94625
+1600, 172.773958333
+3200, 172.925
+6400, 173.1903125
+12800, 172.771067708
+
+If either of the cows goes 24 hours (72 cycles) without eating any grass, they will die. 
+At first, I thought that Bernadette would survive longer because she has a 2:1 ratio of eating grass over resting. Therefore I thought
+she would logically choose more grass, and therefore have a smaller chance of being stuck in dead zones (1x1m areas without grass).
+However, as the above data shows, the cow which eats grass most proficiently (Bernadette), will die faster. This is because Bernadette eats all the grass in the 11x11m pen much faster, having no grass to eat, and then dies after 24 hours.
+Clarabelle on the other hand eats much slower, and therefore has grass left in her pen for a longer period of time.
+The time of death for Bernadette converges to 143 hours and the time of death for Clarabelle converges to 173 hours. In essence, Clarabelle will survive longer if left in such a pen.
+

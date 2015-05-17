@@ -1,0 +1,18 @@
+Clarabelle (amount of grass eaten in 48 hours)
+==============================================
+NUMBER_OF_SIMULATIONS, PERCENTAGE_EATEN
+100, 49.520661157
+200, 48.8305785124
+400, 48.7768595041
+800, 48.9545454545
+1600, 48.6291322314
+3200, 48.8569214876
+6400, 49.0572055785
+12800, 48.8017820248
+25600, 48.9214876033
+51200, 48.8861537965
+102400, 48.8659365315
+
+I ran the simulation NUMBER_OF_SIMULATIONS number of times. As can be seen from the data, the total percentage_eaten of the grass
+converges to 48.9 %. This solution is logical and consistent with the problem as Clarabelle chooses the next placement an 
+equal probability. Much like Brownian motion, if we assume a particle moves in 1 dimension (left or right) it is not wise to take the simple average of where the particle will end up as that will result in the particle not moving (because there is an equal probability of going left and right). In this case, Clarabelle's movement is similar to that particle, as in the Cow has no qualms about where it will move (equal probability of moving left-right, down-up etc.), which leads me to believe a solution such as 49% is fairly accurate.
